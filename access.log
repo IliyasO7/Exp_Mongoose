@@ -1,0 +1,6 @@
+::1 - - [04/Nov/2022:22:20:05 +0000] "OPTIONS /user/login HTTP/1.1" 204 0 "http://127.0.0.1:5500/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [04/Nov/2022:22:20:06 +0000] "POST /user/login HTTP/1.1" 200 175 "http://127.0.0.1:5500/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [04/Nov/2022:22:20:08 +0000] "OPTIONS /user/getExpenses/1 HTTP/1.1" 204 0 "http://127.0.0.1:5500/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [04/Nov/2022:22:20:08 +0000] "POST /user/getExpenses/1 HTTP/1.1" 200 908 "http://127.0.0.1:5500/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [04/Nov/2022:22:20:08 +0000] "OPTIONS /expense/premiums HTTP/1.1" 204 0 "http://127.0.0.1:5500/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [04/Nov/2022:22:20:09 +0000] "GET /expense/premiums HTTP/1.1" 200 - "http://127.0.0.1:5500/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
