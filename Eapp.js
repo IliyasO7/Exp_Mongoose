@@ -41,13 +41,14 @@ const forgotRoutes =  require('./routes/password');
 
 app.use(express.json())//instead of body parson json
 
+
 //app.use(bodyParser.urlencoded({ extended:false })); //registers a middleware and does body parsing for us. and has a next funciton.///plugging into middlewares.
 
 //app.use(express.static(path.join(__dirname,'public')));
 
 
 
-/*
+
 app.use('/user',userRoutes);
 
 
@@ -69,10 +70,14 @@ app.use((req,res)=>{
 })
 
 
-*/
+
+
+
 
 
 mongoose.connect('mongodb+srv://IliyasO7:K3M7cqxy7ymKz4qE@cluster0.eqgxahg.mongodb.net/?retryWrites=true&w=majority').then(result=>{
     app.listen(5000);
     console.log('connected');
+}).catch(err=>{
+    console.log(err);
 })
